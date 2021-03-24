@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+    .footer_links a {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .footer_links a {
+        margin-bottom: 20px;
+    }
+    .bottom_content_item p:last-child {
+        font-size: 20px;
+    }
+    .benifits_content p:last-child {
+        font-size: 30px;
+    }
+    .footer_links a::after {
+        display: none;
+    }
+}
+@media (max-width: 773px) {
+    .characteristics {
+        flex-direction: column;
+    }
+    .characteristic {
+        margin-bottom: 30px;
+    }
+}
